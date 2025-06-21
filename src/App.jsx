@@ -1,8 +1,6 @@
 import React from 'react';
-import viteLogo from '/vite.svg'
-import reactLogo from './assets/react.svg'
 import './App.css';
-import Profile from './components/profile';
+import Profile from './components/Profile';
 import Contact from './components/Contact';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
