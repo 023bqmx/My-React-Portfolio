@@ -9,13 +9,13 @@ function Contact() {
       <h1>Contact Me</h1>
       <p>Follow or contact me through social media below:</p>
       <div className="social-icons">
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/02.3bqmx/" target="_blank" rel="noopener noreferrer">
           <FaInstagram size={40} />
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/thanakrit.siriphol?locale=th_TH" target="_blank" rel="noopener noreferrer">
           <FaFacebook size={40} />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/023bqmx" target="_blank" rel="noopener noreferrer">
           <FaGithub size={40} />
         </a>
       </div>
