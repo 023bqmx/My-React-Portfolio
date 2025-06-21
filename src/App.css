@@ -1,0 +1,104 @@
+.profile-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4e54c8;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.profile-role {
+  color: #4e54c8;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.profile-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.profile-buttons .btn,
+.profile-buttons .btn-outline {
+  padding: 0.7rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  border: 2px solid #4e54c8;
+  color: #4e54c8;
+}
+
+.btn-outline:hover {
+  background: #4e54c8;
+  color: white;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* หน้าคอนแทค*/
+
+.contact-page {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-icons a {
+  color: #4e54c8;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
