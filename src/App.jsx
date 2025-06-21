@@ -4,7 +4,7 @@ import reactLogo from './assets/react.svg'
 import './App.css';
 import Profile from './components/profile';
 import Contact from './components/Contact';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
